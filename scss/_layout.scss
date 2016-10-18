@@ -1,9 +1,91 @@
 
 /*----------  GLOBAL TEMRS STYLE Start  ----------*/
 body.page-id-6 {
-	#mob-logo {
-		height: 32px;
+	.x-container {
+		#mob-logo {
+			height: 31px;
+		}
+
+		&#branches-box {
+			border-top: 1px solid #062838;
+	    	border-bottom: 1px solid #062838;
+
+	    	.branch-logo {
+			    margin-bottom: 0;
+			    height: 97px;
+			}
+		}
+
+		.x-btn {
+			margin: 15px;
+			padding: 10px;
+    		font-size: 20px;
+    		text-shadow: none;
+
+			&.light-button {
+				border: 1.5px solid #062838;
+			    background-color: white;
+			    color: rgb(23,23,23);
+			}
+		}
+
+		/*----------  EDIT TAB BAR STYLE Start  ----------*/
+		.x-nav-tabs {
+		  border: none;
+		  box-shadow: none;
+		  border-bottom: 2px solid rgba(0,0,0,0.15);
+		  font-weight: 500;
+
+		  .x-nav-tabs-item {  
+		    border: none;
+		    margin-right: 10px;
+		    width: 200px;
+/* 		    @media screen and (min-width: 920px) {
+		      width: initial !important;
+		    }
+
+		    @media screen and (min-width: $tablet) and (max-width: 920px) {
+		      width: 33.33% !important;
+		    }
+
+		    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+		      width: initial !important;
+		    }
+		     
+		    @media screen and (max-width: $mobile) {
+		      width: 33.33% !important;
+		    } */
+
+		    a {
+		      background-color: white;
+		      float: left;
+		      padding-left: 0;
+		    }
+
+		    a:hover {
+		      background-color: white;
+		    }
+		  }
+
+		  .x-nav-tabs-item.active {
+		      a {
+		        box-shadow: none !important;
+		      }
+		    }
+		}
+
+		.x-tab-content {
+		  box-shadow: none; 
+		  border: none;
+		  border-bottom: 2px solid rgba(95,95,95,0.15);
+		}
+		/*----------  EDIT TAB BAR STYLE End  ----------*/
+
 	}
+
+	
+
+
 }
 
 /*----------  GLOBAL TEMRS STYLE End  ----------*/

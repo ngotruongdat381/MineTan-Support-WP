@@ -38,8 +38,81 @@ html {
 
 /*----------  GLOBAL TEMRS STYLE Start  ----------*/
 
-body.page-id-6 #mob-logo {
-	height: 32px;
+body.page-id-6 .x-container { /*----------  EDIT TAB BAR STYLE Start  ----------*/ /*----------  EDIT TAB BAR STYLE End  ----------*/
+}
+
+body.page-id-6 .x-container #mob-logo {
+	height: 31px;
+}
+
+body.page-id-6 .x-container#branches-box {
+	border-top: 1px solid #062838;
+	border-bottom: 1px solid #062838;
+}
+
+body.page-id-6 .x-container#branches-box .branch-logo {
+	height: 97px;
+	margin-bottom: 0;
+}
+
+body.page-id-6 .x-container .x-btn {
+	font-size: 20px;
+	margin: 15px;
+	padding: 10px;
+	text-shadow: none;
+}
+
+body.page-id-6 .x-container .x-btn.light-button {
+	color: #171717;
+	border: 1.5px solid #062838;
+	background-color: white;
+}
+
+body.page-id-6 .x-container .x-nav-tabs {
+	font-weight: 500;
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, .15);
+	box-shadow: none;
+}
+
+body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item {
+	width: 200px;
+	margin-right: 10px;
+	border: none; /* 		    @media screen and (min-width: 920px) {
+		      width: initial !important;
+		    }
+
+		    @media screen and (min-width: $tablet) and (max-width: 920px) {
+		      width: 33.33% !important;
+		    }
+
+		    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+		      width: initial !important;
+		    }
+		     
+		    @media screen and (max-width: $mobile) {
+		      width: 33.33% !important;
+		    } */
+}
+
+body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item a {
+	float: left;
+	padding-left: 0;
+	background-color: white;
+}
+
+body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item a:hover {
+	background-color: white;
+}
+
+body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item.active a {
+	box-shadow: none !important;
+}
+
+body.page-id-6 .x-container .x-tab-content {
+	border: none;
+	border-bottom: 2px solid rgba(95, 95, 95, .15);
+	box-shadow: none;
 }
 
 /*----------  GLOBAL TEMRS STYLE End  ----------*/
