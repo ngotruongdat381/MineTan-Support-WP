@@ -34,16 +34,23 @@
 	.x-nav-tabs {
 		border: none;
 		box-shadow: none;
-		border-bottom: 2px solid rgba(0,0,0,0.15);
+		border-bottom: 2px solid rgba(95, 95, 95, .6);
 		font-weight: 500;
 		height: 43px;
 
 		.x-nav-tabs-item {  
 			margin-right: 10px;
-			width: 200px;
+			width: 17%;
 			border: 2px solid rgba(95, 95, 95, .6);
 			border-right: 2px solid rgba(95, 95, 95, .6) !important;
 			border-bottom: none;
+			float: left;
+
+			@media only screen and (max-width: 767px) {
+        width: 25%;
+        margin-right: -1px;
+      }
+
 /* 		    @media screen and (min-width: 920px) {
 	      width: initial !important;
 	    }
@@ -62,9 +69,14 @@
 
 	    a {
 	    	background-color: white;
-	      //float: left;
 	      padding-left: 0;
 	      color: #272727;
+	      
+	      @media only screen and (max-width: 767px) {
+	        padding-right: 5px;
+    			padding-left: 5px;
+	      }
+
 	    }
 
 	    a:hover {
@@ -120,7 +132,7 @@
 			#cumstomer-type-title {
 				width: 17%;
 				white-space: nowrap;
-				
+
 				@media only screen and (max-width: 767px) {
 	        line-height: 1.5;
 			    margin-top: 10px;
