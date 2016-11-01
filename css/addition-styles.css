@@ -55,6 +55,15 @@ html {
 	margin-bottom: 0;
 }
 
+.x-container#faq-areas {
+	width: 95%;
+}
+
+.x-container#faq-areas #faqs {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
 .x-container .x-btn {
 	font-size: 20px;
 	font-size: 18px;
