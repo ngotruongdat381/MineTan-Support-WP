@@ -38,82 +38,280 @@ html {
 
 /*----------  GLOBAL TEMRS STYLE Start  ----------*/
 
-body.page-id-6 .x-container { /*----------  EDIT TAB BAR STYLE Start  ----------*/ /*----------  EDIT TAB BAR STYLE End  ----------*/
+.x-container { /*----------  EDIT TAB BAR STYLE Start  ----------*/ /*----------  EDIT TAB BAR STYLE End  ----------*/ /*----------  FAQ STYLE End  ----------*/ /*----------  FAQ STYLE End  ----------*/
 }
 
-body.page-id-6 .x-container #mob-logo {
+.x-container #mob-logo {
 	height: 31px;
 }
 
-body.page-id-6 .x-container#branches-box {
+.x-container#branches-box {
 	border-top: 1px solid #062838;
 	border-bottom: 1px solid #062838;
 }
 
-body.page-id-6 .x-container#branches-box .branch-logo {
+.x-container#branches-box .branch-logo {
 	height: 97px;
 	margin-bottom: 0;
 }
 
-body.page-id-6 .x-container .x-btn {
+.x-container .x-btn {
 	font-size: 20px;
+	font-size: 18px;
 	margin: 15px;
 	padding: 10px;
-	text-shadow: none;
+	text-shadow: none !important;
 }
 
-body.page-id-6 .x-container .x-btn.light-button {
+.x-container .x-btn.light-button {
 	color: #171717;
 	border: 1.5px solid #062838;
 	background-color: white;
+	text-shadow: none;
 }
 
-body.page-id-6 .x-container .x-nav-tabs {
+.x-container .x-nav-tabs {
 	font-weight: 500;
+	height: 43px;
 	border: none;
 	border-bottom: 2px solid rgba(0, 0, 0, .15);
 	box-shadow: none;
 }
 
-body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item {
+.x-container .x-nav-tabs .x-nav-tabs-item {
 	width: 200px;
 	margin-right: 10px;
-	border: none; /* 		    @media screen and (min-width: 920px) {
-		      width: initial !important;
-		    }
+	border: 2px solid rgba(95, 95, 95, .6);
+	border-right: 2px solid rgba(95, 95, 95, .6) !important;
+	border-bottom: none; /* 		    @media screen and (min-width: 920px) {
+	      width: initial !important;
+	    }
 
-		    @media screen and (min-width: $tablet) and (max-width: 920px) {
-		      width: 33.33% !important;
-		    }
+	    @media screen and (min-width: $tablet) and (max-width: 920px) {
+	      width: 33.33% !important;
+	    }
 
-		    @media screen and (min-width: $mobile) and (max-width: $tablet) {
-		      width: initial !important;
-		    }
-		     
-		    @media screen and (max-width: $mobile) {
-		      width: 33.33% !important;
-		    } */
+	    @media screen and (min-width: $mobile) and (max-width: $tablet) {
+	      width: initial !important;
+	    }
+	     
+	    @media screen and (max-width: $mobile) {
+	      width: 33.33% !important;
+	    } */
 }
 
-body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item a {
-	float: left;
+.x-container .x-nav-tabs .x-nav-tabs-item a {
 	padding-left: 0;
+	color: #272727;
 	background-color: white;
 }
 
-body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item a:hover {
+.x-container .x-nav-tabs .x-nav-tabs-item a:hover {
 	background-color: white;
 }
 
-body.page-id-6 .x-container .x-nav-tabs .x-nav-tabs-item.active a {
+.x-container .x-nav-tabs .x-nav-tabs-item.active {
+	border-bottom: none;
+}
+
+.x-container .x-nav-tabs .x-nav-tabs-item.active a {
+	border-bottom: 2px solid white;
 	box-shadow: none !important;
 }
 
-body.page-id-6 .x-container .x-tab-content {
+.x-container .x-tab-content {
+	color: #272727;
 	border: none;
-	border-bottom: 2px solid rgba(95, 95, 95, .15);
+	border-bottom: none;
 	box-shadow: none;
 }
 
+.x-container #title-contact-form {
+	margin-right: 0;
+	padding: 0 0 0 6% !important;
+}
+
+.x-container form label {
+	line-height: 2.7;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 98%;
+}
+
+.x-container form label span.title {
+	width: 7%;
+	margin-left: 2%;
+}
+
+.x-container form label #cumstomer-type-title {
+	width: 17%;
+	white-space: nowrap;
+}
+
+.x-container form label #branch-title {
+	width: 17%;
+}
+
+.x-container form label #region-title {
+	width: 17%;
+	margin-left: 2%;
+}
+
+.x-container form label .wpcf7-form-control-wrap {
+	width: 100%;
+	margin-left: 50px;
+}
+
+.x-container form label .wpcf7-form-control-wrap .wpcf7-list-item {
+	margin: 1% 1.5%;
+}
+
+.x-container form label .wpcf7-form-control-wrap input {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.x-container form label .wpcf7-form-control-wrap select {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.x-container form label .wpcf7-form-control-wrap textarea {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.x-container form label .wpcf7-form-control-wrap.customer-type {
+	width: 80%;
+	margin-left: 40px;
+}
+
+.x-container form label .checkbox {
+	top: 6px;
+	margin-left: 12%;
+}
+
+.x-container form label .checkbox .wpcf7-checkbox {
+	float: left;
+}
+
+.x-container form label .checkbox .wpcf7-checkbox .wpcf7-list-item {
+	margin: 0;
+}
+
+.x-container form label .checkbox .wpcf7-checkbox .wpcf7-list-item input[type='checkbox'] {
+	top: 6px;
+}
+
+.x-container form #submit-btn {
+	font-size: 18px;
+	float: right;
+	width: 150px;
+	margin-right: 5%;
+	padding: 10px;
+	border-radius: 0;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.x-container.delivers-contact {
+	border-top: 1px solid #062838;
+}
+
+.x-container#faq-body {
+	border-top: 1px solid #062838;
+}
+
+.x-container#faq-body .faq-menu {
+	padding-left: 30px;
+	border-bottom: 1px solid #062838;
+}
+
+.x-container#faq-body .menu {
+	margin-left: 30px;
+	list-style: none;
+}
+
+.x-container#x-faq {
+	border-top: 1px solid #062838;
+}
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs {
+	border: none;
+}
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs .faq-tabs-item {
+	width: 200px;
+	padding-left: 25px;
+	border: none;
+}
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs .faq-tabs-item a {
+	float: left;
+	padding: 6px;
+	cursor: pointer;
+	color: #272727;
+	background-color: white;
+	box-shadow: none;
+}
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs .faq-cate {
+	width: 200px;
+	padding-left: 30px;
+	border: none;
+	border-bottom: 1px solid #062838;
+}
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs .faq-cate span {
+	float: left;
+	padding-bottom: 5px;
+}
+
+.x-container#x-faq #faq-raw-content .x-tab-content {
+	min-height: 800px !important;
+}
+
+.x-container#x-faq #faq-raw-content .x-tab-content .faq-main {
+	background: white;
+}
+
 /*----------  GLOBAL TEMRS STYLE End  ----------*/
+
+@media only screen and (max-width: 767px) {
+
+.x-container form label {
+	width: 100%;
+}
+
+.x-container form label span.title {
+	margin-left: 0;
+}
+
+.x-container form label #cumstomer-type-title {
+	line-height: 1.5;
+	margin-top: 10px;
+	white-space: normal;
+}
+
+.x-container form label .wpcf7-form-control-wrap .wpcf7-list-item {
+	display: block;
+}
+
+.x-container form label .wpcf7-form-control-wrap select {
+	font-size: 10px;
+	padding: 0;
+}
+
+.x-container form label .wpcf7-form-control-wrap.branch,
+.x-container form label .wpcf7-form-control-wrap.region {
+	margin-left: 20px;
+}
+
+}
 
