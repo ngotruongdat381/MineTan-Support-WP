@@ -244,10 +244,13 @@ html {
 }
 
 .x-container#x-faq #faq-raw-content .x-nav-tabs {
+	width: 24%;
+	height: initial;
 	border: none;
 }
 
 .x-container#x-faq #faq-raw-content .x-nav-tabs .faq-tabs-item {
+	float: left;
 	width: 200px;
 	padding-left: 25px;
 	border: none;
@@ -263,6 +266,7 @@ html {
 }
 
 .x-container#x-faq #faq-raw-content .x-nav-tabs .faq-cate {
+	float: left;
 	width: 200px;
 	padding-left: 30px;
 	border: none;
@@ -283,6 +287,14 @@ html {
 }
 
 /*----------  GLOBAL TEMRS STYLE End  ----------*/
+
+@media only screen and (min-width: 768px) {
+
+.x-container#x-faq #faq-raw-content .x-nav-tabs {
+	float: left;
+}
+
+}
 
 @media only screen and (max-width: 767px) {
 

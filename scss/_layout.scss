@@ -71,7 +71,7 @@
 	    	background-color: white;
 	      padding-left: 0;
 	      color: #272727;
-	      
+
 	      @media only screen and (max-width: 767px) {
 	        padding-right: 5px;
     			padding-left: 5px;
@@ -248,10 +248,19 @@
 		#faq-raw-content {
 			.x-nav-tabs {
 				border: none;
+				height: initial;
+				width: 24%;
+
+				@media only screen and (min-width: 768px) {
+          float: left;
+        }
+
 				.faq-tabs-item {
 					width: 200px;
 					padding-left: 25px;
 					border: none;
+					float: left;
+
 					a {
 						float: left;
 						padding: 6px;
@@ -266,6 +275,8 @@
 					padding-left: 30px;
 					border: none;
 					border-bottom: 1px solid #062838;
+					float: left;
+
 					span {
 						float: left;
 						padding-bottom: 5px;
